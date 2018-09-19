@@ -1,6 +1,6 @@
 # Shell Redirection 
 
-**Focus**: The project includes various tasks involving redirection of standard output/input of files. Shell commands that were heavily used in these tasks are of the following: **echo, cat, head, tail, find, wc, sort, uniq, grep, tr, rev, cut**. Commands such as **sed** and **awk** were not allowed in the tasks.
+**Focus**: The project includes various tasks involving redirection of standard output/input of files. Shell commands that were heavily used in these tasks are of the following: ```echo```, ```cat```, ```head```, ```tail```, ```find```, ```wc```, ```sort```, ```uniq```, ```grep```, ```tr```, ```rev```, ```cut```. Commands such as ```sed``` and ```awk``` were not allowed in the tasks. Also not allowed to use ```&&```, ```||```, or ```;```.
 
 **Tasks and their expected outputs**:
 
