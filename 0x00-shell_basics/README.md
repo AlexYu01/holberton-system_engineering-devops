@@ -1,8 +1,8 @@
 # Shell Basics On Working Directory
 
-Basic commands in the shell.
+**Focus**: Basic commands in the shell.
 
-Tasks and their expected outputs:
+**Tasks and their expected outputs**:
 
 0 - Write a script that prints the absolute path name of the current working directory.
 ```
@@ -105,6 +105,7 @@ julien@ubuntu:/tmp$ pwd
 /tmp
 ```
 11 - Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+*Output not included*
 
 12 - Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
 ```
