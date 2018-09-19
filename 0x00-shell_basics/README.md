@@ -1,6 +1,6 @@
 # Shell Basics On Working Directory
 
-**Focus**: Basic commands in the shell.
+**Focus**: Basic commands in the shell. Not allowed to use ```&&```, ```||```, or ```;```.
 
 **Tasks and their expected outputs**:
 
