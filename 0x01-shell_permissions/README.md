@@ -1,6 +1,6 @@
 # Shell Permission Tutorial
 
-**Focus**: Changing users, changing ownership for owners/groups of a file.
+**Focus**: Changing users, changing ownership for owners/groups of a file. Not allowed to use ```&&```, ```||```, or ```;```.
 
 **Tasks and their expected outputs**:
 
