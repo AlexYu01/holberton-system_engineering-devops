@@ -1,6 +1,6 @@
 # Shell Variable And Expansions
 
-**Focus**: ... Not allowed to use the commands ```bc```, ```sed```, or ```awk``` in these tasks. Also not allowed to use ```&&```, ```||```, or ```;```.
+**Focus**: Local and global variables in Shell. Various types of expansions in shell. Performing arithmetic and creating aliases. Not allowed to use the commands ```bc```, ```sed```, or ```awk``` in these tasks. Also not allowed to use ```&&```, ```||```, or ```;```.
 
 **Tasks and their expected outputs**:
 
