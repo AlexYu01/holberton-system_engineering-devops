@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script prints content of the current directory where only part of the
+# name is displayed after the first dash
+files="$(ls)"
+for file in $files; do
+	echo "$file" | cut -d '-' -f2-
+done
