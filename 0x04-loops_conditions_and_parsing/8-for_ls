@@ -3,5 +3,5 @@
 # name is displayed after the first dash
 files="$(ls)"
 for file in $files; do
-	echo "$file" | cut -d '-' -f2-
+	echo "$file" | cut -d '-' -f2
 done
