@@ -35,6 +35,6 @@ int main(void)
 			_exit(EXIT_SUCCESS);
 		}
 	}
-
-	return (infinite_while());
+	infinite_while();
+	return (EXIT_SUCCESS);
 }
