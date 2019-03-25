@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Establishes an ssh connection
+ssh -i ~/.ssh/holberton ubuntu@35.196.185.161
