@@ -23,7 +23,7 @@ if __name__ == "__main__":
                     if type(user_d) is not dict:
                         continue
                     user_id = str(user_d.get('id'))
-                    username = user_d.get('name')
+                    username = user_d.get('username')
                     if user_id == 'None':
                         continue
                     todo_resp = requests.get(url + 'todos?userId={}'
