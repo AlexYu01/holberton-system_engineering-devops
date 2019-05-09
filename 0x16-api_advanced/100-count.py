@@ -37,8 +37,10 @@ def count_words(subreddit, word_list, after=None, word_counter={}):
             title = post_dict.get('title')
             if title is not None:
                 for word in title.lower().split():
-                    if word in word_list:
-                        word_counter[word] = word_counter.get(word, 0) + 1
+                    for i in range(len(word_list)):
+                        if word_list[i].lower() == word:
+                            word_counter[word_list[i]] = \
+                                word_counter.get(word_list[i], 0) + 1
 
         after = data_dict.get('after')
         if after is None:
