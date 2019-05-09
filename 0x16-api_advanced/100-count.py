@@ -52,9 +52,5 @@ def count_words(subreddit, word_list, after=None, word_counter={}):
                 for key in sorted(val_dict.keys(), reverse=True):
                     for word in sorted(val_dict[key]):
                         print('{}: {}'.format(word, key))
-            else:
-                print()
         else:
             count_words(subreddit, word_list, after, word_counter)
-    else:
-        print()
