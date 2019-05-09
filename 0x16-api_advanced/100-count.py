@@ -43,14 +43,9 @@ def count_words(subreddit, word_list, after=None, word_counter={}):
         after = data_dict.get('after')
         if after is None:
             if word_counter != {}:
-                val_dict = {}
-                for key in word_counter:
-                    if val_dict.get(word_counter[key]) is None:
-                        val_dict[word_counter[key]] = [key]
-                    else:
-                        val_dict[word_counter[key]].append(key)
-                for key in sorted(val_dict.keys(), reverse=True):
-                    for word in sorted(val_dict[key]):
-                        print('{}: {}'.format(word, key))
+                sorted_val = sorted(word_counter.items(), key=lambda i: i[1],
+                                    reverse=True)
+                for key, value in sorted_val:
+                    print('{}: {}'.format(key, value))
         else:
             count_words(subreddit, word_list, after, word_counter)
