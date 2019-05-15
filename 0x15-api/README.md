@@ -1,6 +1,6 @@
 # API
 
-Python scripts interpretted on [Ubuntu 14.04 LTS](http://releases.ubuntu.com/14.04/) using [Python 3.4.3](https://www.python.org/downloads/release/python-343/) and must conform to PEP 8 (v1.7.x)](https://pep8.readthedocs.io/en/release-1.7.x/intro.html) style.
+Python scripts interpretted on [Ubuntu 14.04 LTS](http://releases.ubuntu.com/14.04/) using [Python 3.4.3](https://www.python.org/downloads/release/python-343/) and must conform to [PEP 8 (v1.7.x)](https://pep8.readthedocs.io/en/release-1.7.x/intro.html) style.
 
 ### Focus
 Gain an understanding of APIs by writing Python scripts to interpret data returned from [JSONPlaceholder]( https://jsonplaceholder.typicode.com/). How to save data to a CSV and JSON file.
