@@ -1,6 +1,6 @@
 # API advanced
 
-Python scripts interpretted on [Ubuntu 14.04 LTS]((http://releases.ubuntu.com/14.04/)) using [Python 3.4.3](https://www.python.org/downloads/release/python-343/) and must conform to [PEP 8 (v1.7.x)](https://pep8.readthedocs.io/en/release-1.7.x/intro.html) style.
+Python scripts interpretted on [Ubuntu 14.04 LTS](http://releases.ubuntu.com/14.04/) using [Python 3.4.3](https://www.python.org/downloads/release/python-343/) and must conform to [PEP 8 (v1.7.x)](https://pep8.readthedocs.io/en/release-1.7.x/intro.html) style.
 
 
 ### Focus
@@ -8,7 +8,7 @@ Learn how to perform queries with Reddit's [API](https://www.reddit.com/dev/api/
 
 ### Example Usages
 
-[0-subs.py](https://github.com/AlexYu01/holberton-system_engineering-devops/blob/master/0x16-api_advanced/0-subs.py)
+[0-subs.py](0-subs.py)
 ```
 0x16-api_advanced:$ cat 0-main.py
 #!/usr/bin/python3
@@ -25,7 +25,7 @@ if __name__ == '__main__':
 0x16-api_advanced:$ python3 0-main.py this_is_a_fake_subreddit
 0
 ```
-[1-top_ten.py](https://github.com/AlexYu01/holberton-system_engineering-devops/blob/master/0x16-api_advanced/1-top_ten.py)
+[1-top_ten.py](1-top_ten.py)
 ```
 0x16-api_advanced:$ cat 1-main.py
 #!/usr/bin/python3
@@ -52,7 +52,7 @@ PyCon 2017 Talk Videos
 None
 0x16-api_advanced:$
 ```
-[2-recurse.py](https://github.com/AlexYu01/holberton-system_engineering-devops/blob/master/0x16-api_advanced/2-recurse.py)
+[2-recurse.py](2-recurse.py)
 ```
 0x16-api_advanced:$ cat 2-main.py
 #!/usr/bin/python3
@@ -73,7 +73,7 @@ if __name__ == '__main__':
 0x16-api_advanced:$ python3 2-main.py this_is_a_fake_subreddit
 None
 ```
-[100-count.py](https://github.com/AlexYu01/holberton-system_engineering-devops/blob/master/0x16-api_advanced/100-count.py)
+[100-count.py](00-count.py)
 ```
 0x16-api_advanced:$ cat 100-main.py 
 #!/usr/bin/python3
