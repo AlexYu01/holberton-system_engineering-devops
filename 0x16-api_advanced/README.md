@@ -73,7 +73,7 @@ if __name__ == '__main__':
 0x16-api_advanced:$ python3 2-main.py this_is_a_fake_subreddit
 None
 ```
-[100-count.py](00-count.py)
+[100-count.py](100-count.py)
 ```
 0x16-api_advanced:$ cat 100-main.py 
 #!/usr/bin/python3
