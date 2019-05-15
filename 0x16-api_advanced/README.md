@@ -1,10 +1,12 @@
 # API advanced
 
-Python scripts interpretted on `Ubuntu 14.04 LTS` using `Python 3.4.3` and must conform to PEP 8 style.
+Python scripts interpretted on [Ubuntu 14.04 LTS]((http://releases.ubuntu.com/14.04/)) using [Python 3.4.3](https://www.python.org/downloads/release/python-343/) and must conform to [PEP 8 (v1.7.x)](https://pep8.readthedocs.io/en/release-1.7.x/intro.html) style.
 
-**Focus:** Learn how to perform queries with Reddit's [API](https://www.reddit.com/dev/api/) using the `Request` Python library.
 
-**Example Usages**:
+### Focus
+Learn how to perform queries with Reddit's [API](https://www.reddit.com/dev/api/) using the `Request` Python library.
+
+### Example Usages
 
 [0-subs.py](https://github.com/AlexYu01/holberton-system_engineering-devops/blob/master/0x16-api_advanced/0-subs.py)
 ```
@@ -93,3 +95,8 @@ scala: 4
 0x16-api_advanced:$ python3 100-main.py not_a_valid_subreddit 'python java'
 0x16-api_advanced:$ 
 ```
+### Author
+- [Alex Yu](https://github.com/AlexYu01)
+### Acknowledgements
+- [Holberton](https://www.holbertonschool.com/)
+- [Reddit's API](https://www.reddit.com/dev/api/)
