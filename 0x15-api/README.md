@@ -59,6 +59,6 @@ Employee Ervin Howell is done with tasks(8/20):
 ```
 ### Author
 - [Alex Yu](https://github.com/AlexYu01)
-### Acknowledgements
+### Acknowledgments
 - [Holberton](https://www.holbertonschool.com/)
 - [JSONPlaceholder]( https://jsonplaceholder.typicode.com/)
