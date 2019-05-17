@@ -97,6 +97,6 @@ scala: 4
 ```
 ### Author
 - [Alex Yu](https://github.com/AlexYu01)
-### Acknowledgements
+### Acknowledgments
 - [Holberton](https://www.holbertonschool.com/)
 - [Reddit's API](https://www.reddit.com/dev/api/)
